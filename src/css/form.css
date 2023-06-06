@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: block;
+  background-image: url(/src/css/beautiful-rain-forest.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+.container .form {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  padding: 10px;
+  width: 350px;
+  height: 500px;
+  justify-content: center;
+  margin: 20px;
+  align-items: center;
+  transform: translate(20px, 10px);
+  background-color: rgba(155, 168, 187, 0.835);
+}
+.container .form input {
+  padding: 5px;
+  width: auto;
+}
+.container .form button {
+  width: 100px;
+  margin: 15px;
+  padding: 5px;
+  background-color: brown;
+}
+.container .cards {
+  display: flex;
+  width: auto;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 10px;
+  margin: 10px;
+  float: left;
+  flex-direction: column;
+  border: 2px solid black;
+  background-color: rgba(211, 237, 14, 0.938);
+}
+.container .cards h1 {
+  color: rgb(145, 31, 31);
+}
+.container .cards p {
+  color: #6e3a63;
+}/*# sourceMappingURL=form.css.map */
